@@ -1,0 +1,20 @@
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: black!important;
+}
+.offcanvas-title {
+    color: white;
+}
+.offcanvas{
+    background-color:rgb(29, 28, 28) !important
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(https://icon-library.com/images/white-menu-icon/white-menu-icon-0.jpg);
+    width: 50px;
+    height: 50px;
+}
+@media (min-width: 769px) {
+   .menu-nav{
+  display:none
+   }
+}

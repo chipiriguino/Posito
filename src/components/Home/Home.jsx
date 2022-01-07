@@ -8,15 +8,15 @@ export default class Home extends Component {
       <div>
         <header>
           <nav>
-            <h2>
+            {/* <h2>
               <a href="#" id="logo">
                 LOGO
               </a>
-            </h2>
+            </h2> */}
             <div>
               <ul>
                 <ul>
-                  <button className="exit-menu fa fa-times"></button>
+                  {/* <button className="exit-menu fa fa-times"></button> */}
                   <li>
                     <a href="#" className="active">
                       home
@@ -27,7 +27,7 @@ export default class Home extends Component {
                   </li>
                   {/* <li><a href="#">contacto</a></li> */}
                   <li>
-                    <a href="#">sobre nosotros</a>
+                    <a href="#lasana">sobre nosotros</a>
                   </li>
                   <li>
                     <a href="#">galería</a>
@@ -37,7 +37,7 @@ export default class Home extends Component {
             </div>
           </nav>
           <div className="center">
-            <h1 className="alex-brush">Bienvenido</h1>
+            <h1 className="alex-brush"><img src="images/posito.png"></img></h1>
             <h2>Pósito</h2>
             <span id="asterisk">*</span>
             <p>Pesquero</p>
@@ -118,7 +118,7 @@ export default class Home extends Component {
 
         <section className="cake-background center-h1">
           <h1 className="custom-h1">
-            <span className="custom-font alex-brush">Mas foticos</span>
+          <a id="lasana"><span className="custom-font alex-brush">Mas foticos</span></a>
             <br />
             Vacilonas
           </h1>

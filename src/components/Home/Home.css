@@ -24,7 +24,8 @@
 /* HEADER */
  header {
 	 min-height: 100vh;
-	 background: linear-gradient(to bottom, rgba(0, 0, 0, .8), transparent), url('https://images6.alphacoders.com/371/thumbbig-371656.jpg') no-repeat center center;
+	 /* background: linear-gradient(to bottom, rgba(0, 0, 0, .8), transparent), url('https://images6.alphacoders.com/371/thumbbig-371656.jpg') no-repeat center center; */
+	 background-color:black;
 	 background-size: cover;
 	 background-attachment: fixed;
 	 display: flex;
@@ -311,6 +312,10 @@
 		 flex-direction: row;
 		 justify-content: space-around;
 		 align-items: flex-start;
+		
+	}
+	.header{
+		min-height: 92vh;
 	}
 }
  @media (min-width: 769px) {
